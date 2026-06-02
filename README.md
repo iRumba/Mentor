@@ -4,7 +4,7 @@ Knowledge base — матрица компетенций для Senior .NET Back
 
 ## Файл компетенций
 
-[README.md](senior-dotnet-backend-competencies/README.md) — 10 разделов, покрывающих C#, ASP.NET Core, архитектуру, базы данных, тестирование, DevOps, безопасность и другие ключевые области.
+[Матрица компетенций](senior-dotnet-backend-competencies/README.md) — 10 разделов, покрывающих C#, ASP.NET Core, архитектуру, базы данных, тестирование, DevOps, безопасность и другие ключевые области.
 
 ## Правила редактирования
 
