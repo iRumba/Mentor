@@ -2,15 +2,15 @@
 
 ## 1. Язык C# и .NET Platform
 
-- Глубокое понимание CLR, GC, JIT, типов памяти (stack/heap)
-- Value types vs reference types, boxing/unboxing, структуры
-- async/await, TPL, Channels, Dataflow, IAsyncEnumerable
-- Generics, covariance/contravariance, constraints
-- Reflection, Emit, source generators, expressions trees
-- Span\<T\>, Memory\<T\>, unsafe code, zero-copy
-- LINQ (performance, Deferred Execution, IQueryable vs IEnumerable)
-- Pattern matching, records, discriminated unions
-- Интероп с нативным кодом (P/Invoke, COM)
+- [Глубокое понимание CLR, GC, JIT, типов памяти (stack/heap)](01-csharp-dotnet/01-clr-gc-jit-memory.md)
+- [Value types vs reference types, boxing/unboxing, структуры](01-csharp-dotnet/02-value-types-reference-types.md)
+- [async/await, TPL, Channels, Dataflow, IAsyncEnumerable](01-csharp-dotnet/03-async-await-tpl-channels.md)
+- [Generics, covariance/contravariance, constraints](01-csharp-dotnet/04-generics-covariance-contravariance.md)
+- [Reflection, Emit, source generators, expressions trees](01-csharp-dotnet/05-reflection-emit-source-generators.md)
+- [Span\<T\>, Memory\<T\>, unsafe code, zero-copy](01-csharp-dotnet/06-span-memory-unsafe.md)
+- [LINQ (performance, Deferred Execution, IQueryable vs IEnumerable)](01-csharp-dotnet/07-linq-performance.md)
+- [Pattern matching, records, discriminated unions](01-csharp-dotnet/08-pattern-matching-records.md)
+- [Интероп с нативным кодом (P/Invoke, COM)](01-csharp-dotnet/09-interop-pinvoke-com.md)
 
 ## 2. ASP.NET Core
 
