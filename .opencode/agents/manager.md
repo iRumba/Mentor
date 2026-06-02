@@ -4,7 +4,6 @@ description: >-
   them to specialized subagents. Uses delegate-and-execute workflow. Set this as
   default_agent to use it as the primary assistant.
 mode: primary
-model: opencode/deepseek-v4-flash-free
 permission:
   read: allow
   glob: allow
