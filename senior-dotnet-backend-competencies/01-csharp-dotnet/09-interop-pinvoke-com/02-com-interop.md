@@ -1,0 +1,11 @@
+﻿## COM Interop
+- Взаимодействие с COM-объектами (Component Object Model).
+- **RCW (Runtime Callable Wrapper)** — управляемая обёртка вокруг COM-объекта.
+- **CCW (COM Callable Wrapper)** — обёртка управляемого класса для COM.
+- Создание:
+  - Через `Type.GetTypeFromProgID("Excel.Application")` + `Activator.CreateInstance`.
+  - Через библиотеку типов (TLBIMP — импорт TLB в сборку).
+- **Marshal.ReleaseComObject** — освобождение COM-объекта (важно!).
+- **Marshal.FinalReleaseComObject** — принудительно уменьшает счётчик ссылок до нуля.
+- **COM в .NET Core 5+**: только Windows (Windows-only). В .NET 6+ появилась возможность на Linux (нет).
+- **Грабли**: утечки RCW, двухслойное освобождение, STA/MTA apartment model.
