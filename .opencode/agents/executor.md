@@ -1,7 +1,6 @@
 ---
 description: Универсальный исполнитель — выполняет любые задачи редактирования, поиска, рефакторинга и настройки, которые ему поручают. Подходит для рутинных изменений кода, markdown, конфигов и т.д.
 mode: subagent
-model: anthropic/claude-sonnet-4-6
 permission:
   read: allow
   edit: allow
